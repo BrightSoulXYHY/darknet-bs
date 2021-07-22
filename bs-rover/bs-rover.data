@@ -1,0 +1,10 @@
+#bs-rover.data
+#./darknet detector train bs-rover/bs-rover.data bs-rover/bs-rover.cfg weights/yolov3-tiny.conv.11 -dont_show
+#./darknet detector train bs-rover/bs-rover.data bs-rover/bs-rover.cfg weights/bs-rover-v1_4000.weights
+classes= 1
+train  = bs-rover/bs-train.txt
+valid  = bs-rover/bs-train.txt
+names  = bs-rover/bs-rover.names
+backup = backup
+
+

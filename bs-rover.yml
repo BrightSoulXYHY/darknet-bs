@@ -1,0 +1,3 @@
+weights: "./bs-rover/bs-rover-v2_4000.weights"
+config_file: "./bs-rover/bs-rover.cfg"
+data_file: "./bs-rover/bs-rover.data"
